@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SortingClient/SortingClient.iml" filepath="$PROJECT_DIR$/SortingClient/SortingClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortingLibrary/SortingLibrary.iml" filepath="$PROJECT_DIR$/SortingLibrary/SortingLibrary.iml" />
+    </modules>
+  </component>
+</project>
