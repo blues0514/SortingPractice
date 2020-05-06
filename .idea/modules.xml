@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortingClient/SortingClient.iml" filepath="$PROJECT_DIR$/SortingClient/SortingClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortingLibrary/SortingLibrary.iml" filepath="$PROJECT_DIR$/SortingLibrary/SortingLibrary.iml" />
     </modules>
