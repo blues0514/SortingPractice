@@ -1,9 +1,9 @@
 package korea;
 
 import china.Zealot;
-import japan.Marine;
 
-public class AdapterChina extends Zealot implements Acceleratable{
+
+public class AdapterChina implements Acceleratable{
     Zealot zealot;
 
     public AdapterChina(Zealot zealot) {
@@ -12,6 +12,6 @@ public class AdapterChina extends Zealot implements Acceleratable{
 
     @Override
     public void accelerate() {
-        charge();
+        zealot.charge();
     }
 }

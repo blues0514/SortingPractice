@@ -5,11 +5,11 @@ import japan.Marine;
 
 public class Main {
     public static void main(String[] args) {
-        AdapterJapan marine = new AdapterJapan(new Marine());
-        AdapterChina zealot = new AdapterChina(new Zealot());
+       Marine marine = new Marine();
+       Zealot zealot = new Zealot();
 
-        makeItFast(marine);
-        makeItFast(zealot);
+        makeItFast(new AdapterJapan(marine));
+        makeItFast(new AdapterChina(zealot));
 
         System.out.println(marine.getSpeed());
         System.out.println(zealot.getSpeed());

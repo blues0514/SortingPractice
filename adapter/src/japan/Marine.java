@@ -1,7 +1,5 @@
 package japan;
 
-import korea.Acceleratable;
-
 public class Marine{
     private int speed;
 
