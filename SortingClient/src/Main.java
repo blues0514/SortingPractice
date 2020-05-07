@@ -2,7 +2,7 @@ import jdk.swing.interop.DispatcherWrapper;
 
 public class Main {
     public static void main(String[] args) {
-        String[] ar = new String[]{"3", "4", "1", "2"};
+        String[] ar = new String[]{"A3", "C4", "D1", "B2"};
 
         Sorter<String> sorter = new Sorter<>();
         sorter.sort(ar);
