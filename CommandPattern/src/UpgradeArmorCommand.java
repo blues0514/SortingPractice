@@ -1,9 +1,11 @@
 public class UpgradeArmorCommand extends Command{
-    public UpgradeArmorCommand() {
+    public UpgradeArmorCommand(Marine marine) {
+        super(marine);
     }
 
     @Override
     public void execute() {
-        System.out.println("방업");
+        getMarine().setArmor(getMarine().getArmor()+1);
+        System.out.println("방업 " + getMarine().getArmor());
     }
 }

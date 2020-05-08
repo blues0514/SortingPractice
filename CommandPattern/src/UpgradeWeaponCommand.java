@@ -1,9 +1,11 @@
-public class UpgradeWeaponCommand extends Command{
-    public UpgradeWeaponCommand() {
+public class UpgradeWeaponCommand extends Command {
+    public UpgradeWeaponCommand(Marine marine) {
+        super(marine);
     }
 
     @Override
     public void execute() {
-        System.out.println("공업");
+        getMarine().setWeapon(getMarine().getWeapon() + 1);
+        System.out.println("공업 " + getMarine().getWeapon());
     }
 }
